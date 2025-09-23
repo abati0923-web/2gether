@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2em;
+  margin: 20px;
+  color: #00ff88;
+}
+
+.video-wrapper {
+  margin: 20px auto;
+}
+
+#video-container iframe {
+  width: 90%;
+  height: 400px;
+}
+
+.chat {
+  margin: 20px auto;
+  width: 90%;
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+}
+
+#messages li {
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+}
+
+.rating {
+  margin: 20px;
+}
+
+#stars {
+  font-size: 2em;
+  color: gold;
+}
